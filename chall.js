@@ -5,13 +5,13 @@ console.log('There are ', words.length, ' words in the message.');
 
 //2nd method of challenge1
 let messages = "There is no war in Ba Sing Se";
-let words = 1;
+let words1 = 1;
 for(i in  messages){
     if(messages[i]==" "){
-        words+=1;
+        words1+=1;
     }
 }
-console.log('number of words are', words)
+console.log('number of words are', words1)
 
 //ChallengeTwo
 let countries = ['China','Japan','South Korea','Vietnam','Malaysia'];
