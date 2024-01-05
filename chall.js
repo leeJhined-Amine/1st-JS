@@ -3,7 +3,7 @@ let message = "There is no war in Ba Sing Se";
 let words = message.split(' ');
 console.log('There are ', words.length, ' words in the message.');
 
-//2nd method of challenge1 again
+//2nd method of challenge1
 let messages = "There is no war in Ba Sing Se";
 let words = 1;
 for(i in  messages){
