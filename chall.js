@@ -3,6 +3,16 @@ let message = "There is no war in Ba Sing Se";
 let words = message.split(' ');
 console.log('There are ', words.length, ' words in the message.');
 
+//2nd method of challenge1 again
+let messages = "There is no war in Ba Sing Se";
+let words = 1;
+for(i in  messages){
+    if(messages[i]==" "){
+        words+=1;
+    }
+}
+console.log('number of words are', words)
+
 //ChallengeTwo
 let countries = ['China','Japan','South Korea','Vietnam','Malaysia'];
 let capital = ['Beijing','Tokyo','Seoul','Hanoï','Kuala Lumpur'];
@@ -45,3 +55,4 @@ function checkSeason(month){
     }
 }
 console.log(checkSeason())
+
