@@ -54,5 +54,4 @@ function checkSeason(month){
         return ("Invalid Month Number, Must be between 1 and 12");
     }
 }
-console.log(checkSeason())
-
+console.log(checkSeason());
